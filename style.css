@@ -1,0 +1,256 @@
+/* Home page  Title and Picture*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century;
+}
+
+.header{
+	 background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	 height: 100vh;
+	 background-size: cover;
+	 background-position: center;
+	 min-height: 100px;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	min-height: 400px;
+	margin-right: 60px;
+	font-size: 17px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+}
+
+ul li a:hover{
+  background-color: #10b7;
+  color: #000;
+}
+
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+body{
+	background-color: #CCD8EB;
+}
+
+h1{
+	font-size: 30px;
+}
+
+.title{
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1{
+  color: #7b0;
+  font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+h2{
+	text-align: center
+}
+
+.move{
+	position: relative;
+	top: 500px;
+	left: 530px;
+	right: 8px
+}
+
+.text{
+	height: 100px;
+	width: 700px;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	left: 50px;
+	font-size: 30px
+	
+}
+img{
+	height: 450px;
+	width: 450px;
+	text-align: center;
+}
+
+.move2{
+  position: absolute;
+  bottom: 400px;
+  left: 16px;
+  height: 100px;
+  width: 100px
+}
+
+/**Pizza Homepage**/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #CCD8EB;
+	font-family: sans-serif;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	right: 200px
+}
+
+.title1{
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title1 h1{
+  color: #FDFCEC;
+  font-size: 70px;
+}
+
+.pizza1{
+	height: 450px;
+	width: 450px;
+	position: relative;
+	top: 500px;
+	left: 75px;
+	right: 10px
+}
+
+.text2{
+	height: 100px;
+	width: 500px;
+	text-align: center;
+	position: absolute;
+	top: 1000px;
+	right: 1000px;
+	font: 20px
+}
+
+.pizza2{
+	height: 450px;
+	width: 450px;
+	left: 750px;
+	position: relative;
+	top:-550px;
+	right: 10px
+}
+
+.text3{
+	height: 100px;
+	width: 500px;
+	text-align: center;
+	position: relative;
+	bottom: 550px;
+	right: -705px;
+	font: 20px
+}
+
+.table{
+	text-align: left;
+	bottom: 500px;
+	position: relative;
+}
+.image{
+	position: relative;
+	bottom: 480px;
+	border-color: #2224b3
+}
+
+.factone{
+	height: 200px;
+	width: 650px;
+	position: absolute;
+	bottom: -380px;
+	left: 550px
+}
+
+.facttwo{
+	height: 200px;
+	width: 650px;
+	position: relative;
+	bottom: 730px;
+	left: 750px
+}
+/** Gelato Page **/
+
+.gelato1{
+	height: 450px;
+	width: 450px;
+	position: relative;
+	top: 500px;
+	left: 75px;
+	right: 10px
+}
+
+.gelato2{
+	height: 450px;
+	width: 450px;
+	left: 750px;
+	position: relative;
+	top:-550px;
+	right: 10px
+}
+
+.gelato3{
+	text-align: left;
+	bottom: 500px;
+	position: relative;
+}
+
+.text4{
+	text-align: center;
+	top: 175px;
+	position: absolute;
+	right: -450px
+}
+
+.text5{
+	text-align: center;
+	top: 200px;
+	position: absolute;
+	right: -530px;
+	height: 200px;
+	width: 500px
+}
+
+.table1{
+	text-align: center;
+	top: 500px;
+	position: absolute;
+	right: -830px;
+}
